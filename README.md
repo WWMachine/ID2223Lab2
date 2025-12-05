@@ -47,7 +47,7 @@ However we found that by using the "FuseChat" dataset the resulting fine-tuned m
 
 
 
-Since our application of the LLM is focused on poetry generation, another interesting alternative we explored was to additionally fine-tune the model on the "Creative Writing" dataset by Nitral-AI (https://huggingface.co/datasets/Nitral-AI/Creative_Writing-ShareGPT).
+Since our application of the LLM is focused on poetry generation, another interesting alternative we explored was to additionally fine-tune the model on the "Creative Writing" dataset by Nitral-AI (https://huggingface.co/datasets/Nitral-AI/Creative_Writing-ShareGPT). Our hypothesis was that this might improve reasoning of the model, but more importantly would make the model better suited for the specific context of our application.
 Swapping to this dataset we saw a larger improvement in the evaluation compared to the Baseline (although heavily schewed towards general reasoning, which given the dataset is expected) with an average improvement of 1.13%
 
 | Benchmark     | Base Score | Nitral Score | Nitral Improvement |
