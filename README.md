@@ -1,8 +1,7 @@
 # ID2223 Lab2 Fine-tuning of LLM
 
-The model selected was Llama-3.2-1B-Instruct (this was due to limitations at inference (using CPU) which meant we needed to choose a smaller model for reasonable inference times.)
-
 Here is the link to the HuggingFace Space: https://huggingface.co/spaces/Kezovic/iris (both partners, Oliver Westfahl Knezevic and Nils Wiebe Werner, worked on this shared space).
+The model used in this Lab is Llama-3.2-1B-Instruct
 
 # Approaches to improving the performance of the fine-tuned LLM
 # Evaluation
@@ -72,3 +71,6 @@ The evaluation showed that this further improved the model performance on the be
 | STEM          | 0.3635     | 0.3822              | 0.0187     |
 | TruthfulQA    | 0.4367     | 0.44                | 0.0033     |
 
+
+# Testing different LLMs for Inference Speed of Application
+The model selected was Llama-3.2-1B-Instruct. We tried a couple of different foundational models to see the inference and training time per model. We tested models in the Llama-3.2 family (1B,3B,8B) since the notebook we adapted was structured to work with this family. In the end we found that inference for the different models was essentially the same for our application, however the training times were significiantly slower when using the larger models. For this reason we chose to continue using the smallest model since we decided the added time for training was not worth the pay off in the context of the assignment.
