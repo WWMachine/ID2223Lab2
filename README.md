@@ -3,6 +3,8 @@
 Here is the link to the HuggingFace Space: https://huggingface.co/spaces/Kezovic/iris (both partners, Oliver Westfahl Knezevic and Nils Wiebe Werner, worked on this shared space).
 The model used in this Lab is Llama-3.2-1B-Instruct
 
+Note: The preview of notebook doesn't work, so you'd either have to look at the code directly or download it and open with an IDE. Sorry!
+
 # Approaches to improving the performance of the fine-tuned LLM
 # Evaluation
 To evaluate the approaches tested (to see if they make any improvement to the model) we rely on the lm-eval library which provides automated benchmarks to simplify evaluation.
