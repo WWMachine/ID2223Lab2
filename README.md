@@ -1,5 +1,6 @@
-# ID2223Lab2
+# ID2223 Lab2 Fine-tuning of LLM
 
+The model selected was Llama-3.2-1B-Instruct (this was due to limitations at inference (using CPU) which meant we needed to choose a smaller model for reasonable inference times.)
 # Approaches to improving the performance of the finetuned LLM
 # Evaluation
 To evaluate the approaches tested (to see if they make any improvement to the model) we rely on the lm-eval library which provides automated benchmarks to simplify evaluation.
